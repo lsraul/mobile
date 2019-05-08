@@ -1,0 +1,8 @@
+git add .
+git config --global user.name "raul.lozano"
+git config --global user.email "100346708@alumnos.uc3m.es"
+git commit
+
+write "initial commit"
+press shift and two times Z
+git push
