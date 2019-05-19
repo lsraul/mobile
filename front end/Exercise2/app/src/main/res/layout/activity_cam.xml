@@ -10,14 +10,13 @@
     tools:context=".Cam">
 
 
-    <FrameLayout
-        android:id="@+id/frameLayout"
+    <TextureView
+        android:id="@+id/textureView"
         android:layout_width="match_parent"
         android:layout_height="fill_parent" />
 
     <Button
-        android:id="@+id/captureImage"
-        android:onClick="captureImage"
+        android:id="@+id/btnCapture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

@@ -1,4 +1,4 @@
-package  com.example.logintest.ui.login;
+package com.example.logintest.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.

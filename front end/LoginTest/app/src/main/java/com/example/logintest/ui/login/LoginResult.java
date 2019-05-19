@@ -1,4 +1,4 @@
-package  com.example.logintest.ui.login;
+package com.example.logintest.ui.login;
 
 import android.support.annotation.Nullable;
 

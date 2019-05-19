@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#d8000000"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:id="@+id/go_login"
+        android:background="@drawable/circle_white"
+        android:layout_marginLeft="20dp"
+        android:textColor="#403f3f"
+        android:elevation="5dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="16dp"
+        android:text="Login"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:id="@+id/cam"
+            android:background="@drawable/circle_white"
+            android:layout_marginLeft="20dp"
+            android:textColor="#403f3f"
+            android:elevation="5dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="16dp"
+            android:text="Test CAM"/>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

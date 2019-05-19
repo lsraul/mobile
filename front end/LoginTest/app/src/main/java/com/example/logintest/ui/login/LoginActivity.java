@@ -1,4 +1,4 @@
-package  com.example.logintest.ui.login;
+package com.example.logintest.ui.login;
 
 import android.app.Activity;
 import android.arch.lifecycle.Observer;

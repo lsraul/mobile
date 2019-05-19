@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
         go_login=findViewById(R.id.go_login);
         cam=findViewById(R.id.cam);
+
+
         go_login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
