@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button go_login, cam;
+    Button go_login, cam, exjson;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         go_login=findViewById(R.id.go_login);
         cam=findViewById(R.id.cam);
+        exjson=findViewById(R.id.exjson);
 
 
         go_login.setOnClickListener(new View.OnClickListener() {
@@ -30,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this,Cam.class));
+                finish();
+            }
+        });
+
+        exjson.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,ExerciseJSON.class));
                 finish();
             }
         });

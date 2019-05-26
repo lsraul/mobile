@@ -44,6 +44,18 @@
             android:textSize="16dp"
             android:text="CAMERA"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:id="@+id/exjson"
+            android:background="@drawable/circle_white"
+            android:layout_marginLeft="20dp"
+            android:textColor="#403f3f"
+            android:elevation="5dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="16dp"
+            android:text="EXERCISE 4"/>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

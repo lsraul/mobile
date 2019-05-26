@@ -5,8 +5,11 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature android:name="android.hardware.camera" />
+
 
     <application
         android:allowBackup="true"
@@ -15,18 +18,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Cam"
-                  android:parentActivityName="com.example.exercise2.MainActivity" />
-        <activity android:name=".Main_logged"
-                  android:parentActivityName="com.example.exercise2.Login"/>
-        <activity android:name=".SignUp"
-                  android:parentActivityName="com.example.exercise2.Login"/>
-        <activity android:name=".Login"
-                  android:parentActivityName="com.example.exercise2.MainActivity">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
-            </activity>
+        <activity android:name=".ExerciseJSON"></activity>
+        <activity
+            android:name=".Cam"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Main_logged"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".SignUp"
+            android:parentActivityName=".Login" />
+        <activity
+            android:name=".Login"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
