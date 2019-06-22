@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_update_user"
+    android:layout_marginLeft="40dp"
+    android:layout_marginRight="40dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".fragment_edit">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:adjustViewBounds = "true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="0dp"
+            android:textSize="@dimen/edit_text_user"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Write your new Username" />
+
+        <Button
+            android:id="@+id/updateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="0dp"
+            android:textSize="@dimen/edit_text_user"
+            android:inputType="textEmailAddress"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Write your new Email" />
+
+        <Button
+            android:id="@+id/updateEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update" />
+    </LinearLayout>
+
+
+
+    <!--  <TextView
+         android:layout_marginTop="20dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/password"
+         />
+    <LinearLayout
+
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+
+         <EditText
+             android:id="@+id/txtPassword"
+             android:layout_width="0dp"
+             android:textSize="@dimen/edit_text_user"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:inputType="textPassword"
+             android:hint="Write your new Password" />
+
+         <Button
+             android:id="@+id/updatePassword"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Update" />
+     </LinearLayout>
+ -->
+
+
+
+
+
+</LinearLayout>

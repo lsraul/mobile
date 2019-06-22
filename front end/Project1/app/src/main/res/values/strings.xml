@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Erasmus Vaasa</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="erasmus_vaasa">Erasmus Vaasa</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_chat">Chat</string>
+    <string name="menu_map">Map</string>
+    <string name="menu_places">Interesting Places</string>
+
+    <string name="menu_edit">Edit Profile</string>
+    <string name="menu_log_out">Log Out</string>
+
+    <string name="options">Choose a place</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="email">Email:</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
