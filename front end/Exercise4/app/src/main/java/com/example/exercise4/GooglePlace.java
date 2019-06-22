@@ -1,24 +1,32 @@
-package com.example.project1;
+package com.example.exercise4;
 
 class GooglePlace {
+    private String id;
     private String name;
     private String latitude;
     private String longitude;
     private String description;
-    private int type;
+    private String type;
 
-    static final int ALL=0;
-    static final int SUPERMARKET = 1;
-    static final int OCIO = 2;
-    static final int SECOND_HAND = 3;
-    static final int RESTAURANT =4;
 
-    public GooglePlace() {
-        this.name = "";
-        this.latitude = "";
-        this.longitude = "";
-        this.description = "";
-        this.type = ALL;
+    public GooglePlace(){
+
+    }
+    public GooglePlace(String id, String name, String latitude, String longitude, String description, String type) {
+        this.id = id;
+        this.name = name;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.description = description;
+        this.type = type;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public void setName(String name) {
@@ -53,11 +61,11 @@ class GooglePlace {
         this.description = description;
     }
 
-    public int getType() {
+    public String getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(String type) {
         this.type = type;
     }
 

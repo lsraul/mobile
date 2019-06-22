@@ -85,15 +85,15 @@
                 android:textColor="#fff"
                 />
             <Button
-                android:id="@+id/create_account"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="CREATE ACCOUNT"
-                android:background="@android:color/transparent"
-                android:layout_marginLeft="10dp"
-                android:textColor="#fff"/>
+        android:id="@+id/create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE ACCOUNT"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="10dp"
+        android:textColor="#fff"/>
 
-        </LinearLayout>
+    </LinearLayout>
 
     </LinearLayout>
 
